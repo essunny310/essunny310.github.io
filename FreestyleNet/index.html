@@ -162,7 +162,7 @@
       <img src="static/images/teaser.png"
                    alt="Teaser."/>
       <h2 class="subtitle has-text-centered">
-        FreestyleNet - A novel diffusion-based network that can generate diverse semantics onto a given layout.
+        FreestyleNet - A new method that can generate diverse semantics onto a given layout.
       </h2>
     </div>
   </div>
@@ -241,85 +241,91 @@
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
+<!-- <!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+<!--   <div class="hero-body">
+<!--     <div class="container">
+<!--       <!-- Paper video. -->
+<!--       <h2 class="title is-3">Video Presentation</h2>
+<!--       <div class="columns is-centered has-text-centered">
+<!--         <div class="column is-four-fifths">
+<!--           
+<!--           <div class="publication-video">
+<!--             <!-- Youtube embed code here -->
+<!--             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!--           </div>
+<!--         </div>
+<!--       </div>
+<!--     </div>
+<!--   </div>
+<!-- </section>
+<!-- <!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
+<!-- <!-- Video carousel -->
+<!-- <section class="hero is-small">
+<!--   <div class="hero-body">
+<!--     <div class="container">
+<!--       <h2 class="title is-3">Another Carousel</h2>
+<!--       <div id="results-carousel" class="carousel results-carousel">
+<!--         <div class="item item-video1">
+<!--           <video poster="" id="video1" autoplay controls muted loop height="100%">
+<!--             <!-- Your video file here -->
+<!--             <source src="static/videos/carousel1.mp4"
+<!--             type="video/mp4">
+<!--           </video>
+<!--         </div>
+<!--         <div class="item item-video2">
+<!--           <video poster="" id="video2" autoplay controls muted loop height="100%">
+<!--             <!-- Your video file here -->
+<!--             <source src="static/videos/carousel2.mp4"
+<!--             type="video/mp4">
+<!--           </video>
+<!--         </div>
+<!--         <div class="item item-video3">
+<!--           <video poster="" id="video3" autoplay controls muted loop height="100%">\
+<!--             <!-- Your video file here -->
+<!--             <source src="static/videos/carousel3.mp4"
+<!--             type="video/mp4">
+<!--           </video>
+<!--         </div>
+<!--       </div>
+<!--     </div>
+<!--   </div>
+<!-- </section>
+<!-- <!-- End video carousel -->
 
 
 
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
 
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
+
+
+<!-- <!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+<!--   <div class="hero-body">
+<!--     <div class="container">
+<!--       <h2 class="title">Poster</h2>
+<!-- 
+<!--       <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+<!--           </iframe>
+<!--         
+<!--       </div>
+<!--     </div>
+<!--   </section>
+<!-- <!--End paper poster -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <p>If you find our work useful, please cite our paper:</p>
+        <pre><code>@inproceedings{xue2023freestylenet,
+          title = {Freestyle Layout-to-Image Synthesis},
+          author = {Xue, Han and Huang, Zhiwu and Sun, Qianru and Song, Li and Zhang, Wenjun},
+          booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+          year = {2023},
+        }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -332,8 +338,9 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This page is based on the code from the [Academic-project-page-template](https://github.com/eliahuhorwitz/Academic-project-page-template). 
+            If you reuse this code, please credit them appropriately.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
