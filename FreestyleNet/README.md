@@ -1,6 +1,6 @@
 # FreestyleNet
 
-Source code for [the website of FreestyleNet](https://FreestyleNet.github.io).
+Source code for [the website of FreestyleNet](https://essunny310.github.io/FreestyleNet/).
 It is based on the code from the [Academic-project-page-template](https://github.com/eliahuhorwitz/Academic-project-page-template). If you reuse this code, please credit them appropriately.
 
 If you find FreestyleNet useful for your work, please kindly consider citing our paper:
